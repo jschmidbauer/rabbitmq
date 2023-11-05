@@ -1,20 +1,20 @@
 1. Create your virtual environment
-# python -m venv venv
+<sub>python -m venv venv</sub>
 
 2. Activate virtual environment
-# ./venv/Scripts/Activate.ps1
+<sub>./venv/Scripts/Activate.ps1</sub>
 
 3. Run docker compose to build and stand up rabbitmq container
-# cd ./docker
-# docker-compose up -d
+<sub>cd ./docker</sub>
+<sub>docker-compose up -d</sub>
 
 4. Run python scripts ( producer to push items into the letterbox queue )
-# cd python
-# py producer.py
+<sub>cd python </sub>
+<sub>py producer.py</sub>
 
 5. Login to containers management interface to see the queue
-# localhost:15672
+<sub>localhost:15672</sub>
 
 6. Consume the message from rabbitmq
-# cd python
-# py consumer.py
+<sub>cd python</sub>
+<sub>py consumer.py</sub>
