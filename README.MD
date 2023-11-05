@@ -1,8 +1,8 @@
 1. Create your virtual environment
-<sub>python -m venv venv</sub>
+>python -m venv venv
 
 2. Activate virtual environment
-<sub>./venv/Scripts/Activate.ps1</sub>
+>./venv/Scripts/Activate.ps1
 
 3. Run docker compose to build and stand up rabbitmq container
 <sub>cd ./docker</sub>
